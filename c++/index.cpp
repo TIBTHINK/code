@@ -1,17 +1,3 @@
-#include<stdio.h>
-
-int main()
-
-{
-
-            printf(“\n\nWelcome to my Homepage!!\n\n”);
-
-            return 0;
-
-}
-
-(i). C++ program code:
-
 #include<iostream>
 
 using namespace std;
