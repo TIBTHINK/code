@@ -1,8 +1,10 @@
 #header {
   background-color: blue;
-  float: left;
+  float: auto;
+  width: 500px;
 }
 
 #index {
-  background-color: black;
+  background-color: cyan;
+
 }
