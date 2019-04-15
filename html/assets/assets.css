@@ -6,5 +6,18 @@
 
 #index {
   background-color: cyan;
+  width: 500px;
 
+}
+
+#background {
+  background-color: grey;
+  background: fill;
+}
+
+#footer {
+  font-family: comic;
+  color: purple;
+  background-color: white;
+  width: 423px;
 }
