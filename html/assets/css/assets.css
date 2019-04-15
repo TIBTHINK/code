@@ -18,6 +18,9 @@
 #footer {
   font-family: comic;
   color: purple;
-  background-color: white;
   width: 423px;
+}
+
+body {
+  background-color: #30729b
 }
