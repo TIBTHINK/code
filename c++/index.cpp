@@ -1,13 +1,23 @@
-#include<iostream>
+//this is a cooment
+
+#include <iostream>
+#include <vector>
+#include <string>
+#include <fstream>
 
 using namespace std;
 
-int main()
+int main(){
 
-{
+    cout << "hello world" << endl;
 
-            cout<<“\n\nHello World,\nWelcome to my first C ++ program on Ubuntu Linux\n\n”<<endl;
+    const double PI = 3.1415;
 
-            return 0;
+    char myGrade = 'a';
 
+    bool = isHappy = false;
+
+    cout << "size of "
+
+    return 0;
 }
