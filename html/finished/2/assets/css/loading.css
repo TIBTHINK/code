@@ -29,11 +29,14 @@ body {
 .camera {
   display: flex;
   height: 100%;
-  left: 0%;
+  right: -50%;
   position: absolute;
-  top: 0%;
+  top: 10%;
   width: 100%;
+}
 
+.lol {
+  
 }
 
 @-webkit-keyframes spin {
