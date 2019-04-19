@@ -1,14 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .loader {
-  border: 16px solid #f3f3f3;
+  border: 30px solid #f3f3f3;
   border-radius: 50%;
-  border-top: 16px solid blue;
-  border-right: 16px solid green;
-  border-bottom: 16px solid red;
-  border-left: 16px solid yellow;
-  width: 120px;
-  height: 120px;
+  border-top: 30px solid blue;
+  border-right: 30px solid green;
+  border-bottom: 30px solid red;
+  border-left: 30px solid yellow;
+  width: 450px;
+  height: 450px;
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
+}
+
+.text {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 30px;
+}
+
+.camera {
+  display: flex;
+  height: 100%;
+  left: 0%;
+  position: absolute;
+  top: 0%;
+  width: 100%;
+
 }
 
 @-webkit-keyframes spin {
