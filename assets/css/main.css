@@ -7,6 +7,10 @@ body {
     color: white;
 }
 
+.header {
+  text-align: center;
+}
+
 ul.Nav{
   list-style-type:none;
 }
@@ -21,4 +25,8 @@ a:link {
 a:visited {
   color: #54575b;
   text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #1d1d1e;
 }
