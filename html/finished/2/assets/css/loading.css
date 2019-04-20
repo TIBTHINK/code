@@ -2,9 +2,18 @@
 
 
 body {
+<<<<<<< HEAD
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
+=======
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+  color: white;
+  text-transform: capitalize;
+  width: auto;
+>>>>>>> 5d4518a8946e2477c68a1cae7468a1a956afe32b
 }
 
 .loader {
@@ -24,7 +33,7 @@ body {
   position: absolute;
   top: 8px;
   right: 16px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .camera {
@@ -36,9 +45,6 @@ body {
   width: 100%;
 }
 
-.lol {
-
-}
 
 @-webkit-keyframes spin {
   0% { -webkit-transform: rotate(0deg); }
