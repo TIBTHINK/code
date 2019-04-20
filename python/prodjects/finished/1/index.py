@@ -15,13 +15,15 @@ print("so your name is " + name)
 print()
 print("and your " + age)
 print()
-print("well my name is also " + AiName)
+print("well my name is  " + AiName)
+
 # auto update part
 time.sleep(5)
 os.system("clear")
 os.system("sudo apt-get update && sudo apt-get -y upgrade")
 print("say y or n")
 input("Y/N: ")
+
 # restarting portatin
 print("well in about 5 secounds the program will restart")
 time.sleep(5)
