@@ -28,6 +28,6 @@ a:visited {
   text-decoration: none;
 }
 
-nav ul li a:hover {
+a:hover {
     background-color: #1d1d1e;
 }
