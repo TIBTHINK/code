@@ -3,8 +3,22 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: white;
 }
 
 ul.Nav{
   list-style-type:none;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #54575b;
+  text-decoration: none;
 }
