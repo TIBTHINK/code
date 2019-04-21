@@ -5,6 +5,13 @@
     <title></title>
   </head>
   <body>
-    <?php echo "hello world"; ?>
+    <form class="" action="index.html" method="post">
+
+    <form class="form" action="index.php" method="post">
+
+      <?php  ?>
+
+    </form>
+
   </body>
 </html>
