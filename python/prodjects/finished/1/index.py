@@ -14,12 +14,7 @@ print()
 print("so your name is " + name)
 print()
 print("and your " + age)
-print()
-<<<<<<< HEAD
-print("well my name is also " + AiName)
-=======
 print("well my name is  " + AiName)
->>>>>>> 5d4518a8946e2477c68a1cae7468a1a956afe32b
 
 # auto update part
 time.sleep(5)
