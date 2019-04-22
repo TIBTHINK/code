@@ -7,7 +7,7 @@ print("hello what is your name?")
 Name = input("what is your name: ")
 
 count = .1
-while count < 120:
+while count < 99999:
 
     lines = ["I SEE YOU "+ Name]
 
