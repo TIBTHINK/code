@@ -2,12 +2,13 @@
 
 
 body {
-  margin: 0;
   font-family: 'Montserrat', sans-serif;
   background-color: black;
   color: white;
-  text-transform: capitalize;
+  text-transform: uppercase;
   width: auto;
+  height: auto;
+  margin: 0;
 }
 
 .loader {
@@ -17,8 +18,8 @@ body {
   border-right: 30px solid green;
   border-bottom: 30px solid red;
   border-left: 30px solid yellow;
-  width: 450px;
-  height: 450px;
+  width: 430px;
+  height: 430px;
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
 }
@@ -26,18 +27,39 @@ body {
 .text {
   position: absolute;
   top: 8px;
-  right: 16px;
-  font-size: 20px;
+  right: 10px;
+  font-size: 25px;
 }
 
 .camera {
   display: flex;
   height: 100%;
-  right: -50%;
+  left: 50%;
   position: absolute;
   top: 10%;
   width: 100%;
 }
+
+.back-link {
+  margin-top: 2em;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #54575b;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #1d1d1e;
+}
+
 
 
 @-webkit-keyframes spin {
