@@ -12,8 +12,10 @@ body {
   text-align: center;
 }
 
-ul.Nav{
-  list-style-type:none;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 /* unvisited link */
