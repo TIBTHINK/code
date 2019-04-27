@@ -1,6 +1,10 @@
 #include <iostream>
-int main
+using std::cout;
+
+int main()
 {
-  std::cout << "hello world\n";
+  int slices;
+  slices = 5;
+  cout << "hello world\n";
   return 0;
 }
