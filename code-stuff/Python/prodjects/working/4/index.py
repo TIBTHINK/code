@@ -1,39 +1,30 @@
-# import os
-# import time
-#
-# os.system("clear")
-# x = input('First number: ')
-# y = input('Secound number: ')
-# z = input('And what Arithmetic would you like to do: ')
-#
-# print(x,z,y)
+import os
+import time
 
-
-# Python Program - Make Simple Calculator
-
-print("1. Addition");
-print("2. Subtraction");
-print("3. Multiplication");
-print("4. Division");
-print("5. Exit");
-choice = int(input("Enter your choice: "));
+print("1. Addition")
+print("2. Subtraction")
+print("3. Multiplication")
+print("4. Division")
+print("5. Exit")
+choice = int(input("Enter your choice: "))
+os.system("clear")
 if (choice>=1 and choice<=4):
-    print("Enter two numbers: ");
-    num1 = int(input());
-    num2 = int(input());
+    print("Enter two numbers: ")
+    x = int(input())
+    y = int(input())
     if choice == 1:
-    	res = num1 + num2;
-    	print("Result = ", res);
+    	res = x + y
+    	print("Result = ", res)
     elif choice == 2:
-    	res = num1 - num2;
-    	print("Result = ", res);
+    	res = x - y
+    	print("Result = ", res)
     elif choice == 3:
-    	res = num1 * num2;
-    	print("Result = ", res);
+    	res = x * y
+    	print("Result = ", res)
     else:
-    	res = num1 / num2;
-    	print("Result = ", res);
+    	res = x / y
+    	print("Result = ", res)
 elif choice == 5:
-    exit();
+    exit()
 else:
-    print("Wrong input..!!");
+    print("Wrong input..!!")
