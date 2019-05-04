@@ -1,0 +1,19 @@
+import os
+from time import sleep
+import random
+import sys
+
+if os.geteuid() != 0:
+    exit("You need to have root privileges to run this script.\nPlease try again, this time using 'sudo' then run the script.\nExiting.")
+
+Note =('SSB0aGluayBJJ20gc3VpY2lkYWwuLi4gcmlnaHQgdG8gYW55b25lIHNtYXJ0IGVub3VnaCB0byBkZWNpcGhlciB0aGlzIHRleHQgaWYgSSBkbyBraWxsIG15c2VsZiBJIG5lZWQgeW91IHRvIHRlbGwgdGhlIGZvbGxvd2luZyBwZW9wbGUgdGhhdCBJJ20gc29ycnkKLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCnRoZSBtZW1lcGlyZSA0LjAgZ3JvdXAgY2hhdCAKYWlzbHlubiBLaXJieQpFbGxhIEVkZ2VydG9uCkFpZGVuIHJlZWQKRG9taW5pYyBUaG9tcHNvbiAKbXkgbW90aGVyIGFuZCBmYXRoZXIKLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCmFsc28sIG1ha2Ugc3VyZSB0aGUgZnVja2luZyBzY2hvb2wgZG9lc24ndCBtYWtlIG1lIGFuIGV4YW1wbGUgb2Ygc29tZSBidWxsc2hpdCBhbmQgaWYgYW55b25lIHRlbGxzIGEgc3RvcnkgYWJvdXQgbWUgYW5kIHRoZXkgZG9uJ3Qga25vdyBtZSB0aGUgcGVvcGxlIG9uIHRoZSBsaXN0IGFyZSB0aGUgb25seSBvbmVzIHRvIHRlbGwgc3RvcnkncwotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KdGhpcyB3aWxsIGJlIG15IGZpbmFsIHRlc3RhbWVudCBpZiB5b3UgaGF2ZSBhbnkgcXVlc3Rpb25zIGJlZm9yZSBpZiBJIGRvIGRpZSB0aGVuIEknbGwgYmUgZ2xhZCB0byB0YWxrCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQphbHNvLCBmdWNrIGdvZA==')
+
+
+lines = [Note]
+
+for line in lines:
+    for c in line:
+        print(c, end='')
+        sys.stdout.flush()
+        sleep(0.05)
+    print('')
