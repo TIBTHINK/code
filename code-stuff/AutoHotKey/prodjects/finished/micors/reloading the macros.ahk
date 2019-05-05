@@ -1,0 +1,19 @@
+#SingleInstance force
+^F8::
+Send, #1
+SendInput, {Tab}
+sleep, 1000
+SendInput, {Tab}
+sleep, 1000
+SendInput, {Tab}
+sleep, 1000
+SendInput, {Tab}
+sleep, 1000
+SendInput, {Enter}
+Send, C:\Users\bent2\Desktop\micors
+SendInput, {Enter}
+sleep 1000
+Send ^a
+SendInput {Enter}
+Sleep, 1000
+Send ^w
