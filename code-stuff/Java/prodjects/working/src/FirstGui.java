@@ -13,6 +13,7 @@ public class FirstGui extends JFrame {
 		
 		button = new JButton("kill yourself");
 		add(button);
+		ImageIcon img = new ImageIcon();
 		
 	}
 	public static void main (String args[]) {
