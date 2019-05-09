@@ -1,15 +1,12 @@
-import os
-import pygame
-import sys
+import pygame, sys
+from pygame.locals import *
 
-from pygame.local import *
-pygame.int()
-DISPLAYSURF = pygame.display.set_mode((300, 300))
-pygame.display.set_caption('Fuck You')
-while True:
+pygame.init()
+DISPLAYSURF = pygame.display.set_mode((400, 300))
+pygame.display.set_caption('Go Fuck Yourself')
+while true:
     for event in pygame.event.get():
         if event.type == QUIT:
             pygame.quit()
             sys.exit()
-
     pygame.display.update()
