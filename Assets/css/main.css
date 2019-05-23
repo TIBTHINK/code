@@ -11,7 +11,7 @@ body {
 }
 
 .my-logo {
-  float: left;
+  float: center;
   color: #05cee9;
   font-size: 70px;
   font-family: "Press Start 2P";
