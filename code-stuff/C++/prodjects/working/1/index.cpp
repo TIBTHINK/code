@@ -1,19 +1,25 @@
 #include <iostream>
-
 using namespace std;
 
-int main()
+void main()
 {
-	int x, y, z;
+	int n;
+	double f;
+	double ans =0 ;
+	cin >> n;
 
-	/* For single input */
-	cout << "Enter a number: ";
-	cin >> x;
+	for (int i=0; i<n ; i++)
+	{
+			f = 4 * (1/(2*i + 1));
 
-	/* For multiple inputs*/
-	cout << "Enter 2 numbers: ";
-	cin >> y >> z;
-
-	cout << "Sum = " << (x+y+z);
-	return 0;
+			if ((i %2) == 1 )
+			  f = -(f);
+			else
+				f=f;
+	
+			ans += f;
+		}
+	}
+   cout << ans << endl;
 }
+
